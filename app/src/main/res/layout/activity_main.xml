@@ -21,7 +21,7 @@
             android:layout_marginTop="16dp"
             android:fontFamily="sans-serif-medium"
             android:text="@string/my_nanodegree_apps"
-            android:textColor="#616161"
+            android:textColor="@color/title_text"
             android:textSize="24sp" />
 
         <LinearLayout
@@ -42,65 +42,36 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#F08C35"
+                    style="@style/ButtonStyle"
                     android:onClick="onSpotifyStreamer"
-                    android:text="@string/spotify_streamer"
-                    android:textAllCaps="true" />
+                    android:text="@string/spotify_streamer" />
 
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#F08C35"
+                    style="@style/ButtonStyle"
                     android:onClick="onScoresApp"
-                    android:text="@string/scores_app"
-                    android:textAllCaps="true" />
+                    android:text="@string/scores_app" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#F08C35"
+                    style="@style/ButtonStyle"
                     android:onClick="onLibraryApp"
-                    android:text="@string/library_app"
-                    android:textAllCaps="true" />
+                    android:text="@string/library_app" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#F08C35"
+                    style="@style/ButtonStyle"
                     android:onClick="onBuildItBigger"
-                    android:text="@string/build_it_bigger"
-                    android:textAllCaps="true" />
+                    android:text="@string/build_it_bigger" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#F08C35"
+                    style="@style/ButtonStyle"
                     android:onClick="onXYZReader"
-                    android:text="@string/xyz_reader"
-                    android:textAllCaps="true" />
+                    android:text="@string/xyz_reader" />
 
                 <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="@android:color/holo_red_dark"
+                    style="@style/ButtonStyle"
+                    android:background="@color/capstone_button"
                     android:onClick="onCapstone"
                     android:text="@string/capstone_my_own_app"
-                    android:textAllCaps="true"
                     android:textColor="@android:color/white" />
             </LinearLayout>
 
